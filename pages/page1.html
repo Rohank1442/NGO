@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOODWILL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background: url('https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000');
+            height: 90vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .containr{
+            height: 300px;
+            width: 100%;
+            border-radius: 7px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .another-con{
+            display: flex;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .item{
+            width: 150px;
+            height: 150px;
+            background-color: orange;
+            margin: 0px;
+            padding: 4px;
+            border-radius: 7px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #item-1{
+            background: url('https://res.cloudinary.com/sgpproduction/image/upload/f_auto,q_auto,c_fit/v1555072851/sociallygood/SGApp/Landing%20Page/NGO%20Section/acquire.png');
+            background-repeat: no-repeat;
+        }
+
+        #item-2{
+            background: url('https://res.cloudinary.com/sgpproduction/image/upload/f_auto,q_auto,c_fit/v1555072851/sociallygood/SGApp/Landing%20Page/NGO%20Section/connect.png');
+            background-repeat: no-repeat;
+        }
+
+        #item-3{
+            background: url('https://res.cloudinary.com/sgpproduction/image/upload/f_auto,q_auto,c_fit/v1555072851/sociallygood/SGApp/Landing%20Page/NGO%20Section/impact.png');
+            background-repeat: no-repeat;
+        }
+        
+        #add-0{
+            position: absolute;
+            left: 9rem;
+            color: white;
+        }
+
+        #add-1{
+            display: flex;
+            position: absolute;
+            bottom: 10rem;
+            left: 40rem;    
+            height: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            align-items: center;
+            background-color: antiquewhite;
+            width: 7rem;
+        }
+
+        #add-2{
+            position: absolute;
+            bottom: 7rem;
+            left: 38rem;
+            color: white;
+        }
+        
+        #add-3{
+            position: absolute;
+            bottom: 8rem;
+            left: 47rem;
+            color: yellow;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="margin: 20px; font-family: 'Roboto', sans-serif; color: white;">Non-Profit</h1>
+    <div class="containr">
+        <div class="item" id="item-1"></div>
+        <div class="item" id="item-2"></div>
+        <div class="item" id="item-3"></div>
+    </div>
+    <div class="another-con">
+        <h3 id="add-0">You serve the society; it's our turn to serve you. We simplify your efforts to scale your donor-volunteer reach, and sustain them too.</h3> 
+        <button id="add-1">Try it for FREE</button>
+        <p id="add-2">Already registered?</p>
+        <a href="" id="add-3">Sign in</a>
+    </div>
+</body>
+</html>
